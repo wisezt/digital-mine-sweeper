@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Test</h1>
+    <p>P TEST</p>
+    <button type="button" name="button">Button 1</button>
+    <button id="btn2" type="button" name="button">Button 2</button>
+        <button type="button" name="button">Button 3</button>
+            <button type="button" name="button">Button 4</button>
+
+  </body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript">
+
+
+
+
+  $("button").on("click", function(){
+      $("h1").css("background-color", "red");
+    }
+);
+
+
+$(document).ready(function(){
+  $("button").click(function(){
+    $("p").hide();
+  });
+
+
+});
+
+
+
+</script>
+
+
+<script src="interviewQuestions.js">
+
+</script>
+
+<!-- $(document).ready( function(){
+$("#btn2").on("click", changeColor());
+
+
+
+function changeColor(){
+  $("h1").css("background-color", "red");
+
+
+}
+
+
+
+
+}
+); -->
+</html>
